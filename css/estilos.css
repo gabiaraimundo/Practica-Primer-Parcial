@@ -1,0 +1,62 @@
+body {
+	background-image: url("../img/fondo.png"); 
+} 
+
+#contenedor {
+    background-color: rgba(227, 228, 229, 0.90); /* El color que elegiste */
+    min-height: 100vh;         /* Ocupa el 100% de la altura de la ventana */
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    
+    /* Definimos el ancho del contenido */
+    width: 80%;           /* Ocupa el 80% de la pantalla */
+    max-width: 1200px;    /* No se estira más de 1200px */
+    
+    /* Centra el bloque entero en la pantalla */
+    margin: 0 auto;       
+    
+    padding: 15px 0;      /* Espacio arriba y abajo */
+    padding-left: 80px;  /* Separa el h6 del borde izquierdo */
+    padding-right: 80px; /* Separa Arte&IA del borde derecho */
+}
+
+header h6 {
+    margin: 0;                 /* Elimina el margen por defecto del h6 */
+}
+
+header h6 a {
+    text-decoration: none;     /* Quita el subrayado del "botón" home */
+    color: black;              /* Color del texto */
+    font-size: 1.2rem;
+}
+
+nav {
+    margin-left: auto;         /* EMPUJA todo el nav hacia la derecha */
+}
+
+nav ul {
+    display: flex;             /* Pone los links en horizontal (forma de bloque) */
+    list-style: none;          /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    gap: 40px;                 /* Espaciado entre cada link */
+}
+
+nav ul li a {
+    text-decoration: none;     /* Estilo para los links de la derecha */
+    color: #333;
+    font-weight: 500;
+}
+
+
+h1, h2 {
+	font-family: "Lato", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
